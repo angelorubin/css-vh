@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div id="div-1">
-      <div id="div-2">
-        <p>
+    <div class="box">
+      <div class="box-menu">
+        <div class="menu">
+          <a href="#" class="menu__link">Home</a>
+          <a href="#" class="menu__link">About</a>
+        </div>
+      </div>
+      <div class="content">
+        <p class="content__text">
           Os elementos de bloco consomem a largura total de seu pai, por padrão.
           É assim que eles atendem ao requisito de design, que é empilhar
           verticalmente.
         </p>
-        <p>
+        <p class="content__text">
           9.4.1 Contextos de formatação de blocos Em um contexto de formatação
           de bloco, as caixas são dispostas uma após a outra, verticalmente,
           começando na parte superior de um bloco que as contém.
         </p>
-        <p>
+        <p class="content__text">
           Esse comportamento, no entanto, não se estende à altura. Por padrão, a
           maioria dos elementos tem a altura de seu conteúdo ( height: auto). Ao
           contrário da largura, você precisa especificar uma altura se quiser
